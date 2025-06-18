@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客文章 - HZAU-LHS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="images/logo.png" alt="HZAU-LHS Logo">
+                </div>
+                <span class="logo-text">HZAU-LHS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="blog.html" class="active"><i class="fas fa-blog"></i> 博客</a></li>
+                <li><a href="projects.html"><i class="fas fa-project-diagram"></i> 项目</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> 联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-header">
+            <h1>博客文章</h1>
+            <div class="blog-categories">
+                <button class="category-btn active">全部</button>
+                <button class="category-btn">技术</button>
+                <button class="category-btn">生活</button>
+                <button class="category-btn">随笔</button>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <article id="article1" class="blog-post">
+                <div class="post-meta">
+                    <span class="post-date">2024-03-20</span>
+                    <span class="post-category">技术</span>
+                </div>
+                <h2>示例文章标题</h2>
+                <div class="post-content">
+                    <img src="images/placeholder.jpg" alt="文章配图" class="post-image" loading="lazy">
+                    <p class="post-excerpt">这是一篇示例文章的完整内容。在这里，你可以详细地介绍文章的主要内容，包括技术细节、代码示例、图表说明等。文章可以包含多个段落，每个段落都应该有清晰的主题和逻辑连接...</p>
+                    <p>这是第二段内容，可以继续展开讨论主题的不同方面，提供更多的细节和示例...</p>
+                </div>
+            </article>
+
+            <article id="article2" class="blog-post">
+                <div class="post-meta">
+                    <span class="post-date">2024-03-19</span>
+                    <span class="post-category">生活</span>
+                </div>
+                <h2>另一篇示例文章</h2>
+                <div class="post-content">
+                    <img src="images/placeholder2.jpg" alt="文章配图" class="post-image" loading="lazy">
+                    <p class="post-excerpt">这是另一篇示例文章的完整内容。这篇文章可以讨论不同的主题，比如生活感悟、学习经验等。通过丰富的内容和生动的描述，让读者能够深入理解文章要表达的观点...</p>
+                    <p>这是第二段内容，可以分享更多的个人经历和思考...</p>
+                </div>
+            </article>
+
+            <article id="article3" class="blog-post">
+                <div class="post-meta">
+                    <span class="post-date">2024-03-18</span>
+                    <span class="post-category">随笔</span>
+                </div>
+                <h2>第三篇示例文章</h2>
+                <div class="post-content">
+                    <img src="images/placeholder3.jpg" alt="文章配图" class="post-image" loading="lazy">
+                    <p class="post-excerpt">这是第三篇示例文章的完整内容。这篇文章可以是一篇随笔，记录日常的所思所想。通过优美的文字和真挚的情感，与读者产生共鸣...</p>
+                    <p>这是第二段内容，可以继续抒发感想和心得...</p>
+                </div>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <a href="#" class="page-btn"><i class="fas fa-chevron-left"></i></a>
+            <a href="#" class="page-btn active">1</a>
+            <a href="#" class="page-btn">2</a>
+            <a href="#" class="page-btn">3</a>
+            <a href="#" class="page-btn"><i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <div class="image-overlay"></div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 HZAU-LHS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

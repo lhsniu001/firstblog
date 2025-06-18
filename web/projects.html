@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目展示 - HZAU-LHS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="images/logo.png" alt="HZAU-LHS Logo">
+                </div>
+                <span class="logo-text">HZAU-LHS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> 博客</a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-project-diagram"></i> 项目</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> 联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-header">
+            <h1>项目展示</h1>
+            <p>这里展示了我的一些个人项目和作品</p>
+        </section>
+
+        <section class="projects-content">
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">Web开发</button>
+                <button class="filter-btn" data-filter="mobile">移动应用</button>
+                <button class="filter-btn" data-filter="other">其他项目</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="项目截图">
+                    </div>
+                    <div class="project-content">
+                        <h3>个人博客网站</h3>
+                        <p>使用HTML、CSS和JavaScript开发的响应式个人博客网站，支持文章发布和评论功能。</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 在线预览</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 源代码</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="项目截图">
+                    </div>
+                    <div class="project-content">
+                        <h3>天气预报应用</h3>
+                        <p>基于React Native开发的移动端天气预报应用，支持实时天气查询和未来天气预测。</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 下载应用</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 源代码</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 HZAU-LHS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
